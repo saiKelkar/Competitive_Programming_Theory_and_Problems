@@ -23,3 +23,7 @@ Recursion -
 
 $O(1)$ the running time of a constant-time algorithm does not depend on the input size. A typical constant-time algorithm is a direct formula that calculates the answer. 
 
+$O(\log n)$ a logarithmic algorithm often halves the input size at each step. the running time of such an algorithm is logarithmic, because $\log_2 n$ equals the number of times n must be divided by 2 to get 1
+
+$O(\sqrt n)$ a square root algorithm is slower than $O(\log n)$ but faster than $O(n)$. a special property of square roots is that $\sqrt n = n / \sqrt n$, so the square root $\sqrt n$ lies, in some sense, in the middle of the input
+
