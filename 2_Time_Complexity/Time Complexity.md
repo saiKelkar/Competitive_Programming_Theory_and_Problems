@@ -20,3 +20,6 @@ for (int i = 1; i <= n; i++) {
 ```
 
 Recursion - 
+
+$O(1)$ the running time of a constant-time algorithm does not depend on the input size. A typical constant-time algorithm is a direct formula that calculates the answer. 
+
